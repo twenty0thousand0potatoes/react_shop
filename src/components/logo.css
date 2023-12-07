@@ -1,0 +1,16 @@
+
+.logoImg{
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/food-delivery.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.nameLogo{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    vertical-align: super;
+}

@@ -1,0 +1,64 @@
+.contentForm{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.wrapperForm{
+padding-top: 150px;
+}
+
+.formBlock{
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    border: 2px solid #cfcdcd;
+    padding: 20px;
+}
+
+.areas{
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #cfcdcd;
+    border-radius: 20px;
+}
+
+.submit{
+  margin-top: 30px;
+}
+
+.submit button{
+  width: 200px;
+  height: 50px;
+  border: 2px solid #cfcdcd;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit button:active{
+color: white;
+background-color: black;
+box-shadow: 7px 7px 10px black;
+border: none;
+}
+
+.payWay{
+    display: flex;
+    max-width: 300px;
+    justify-content: space-around;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    padding: 5px;
+    font-size: 16px;
+
+}

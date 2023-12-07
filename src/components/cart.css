@@ -1,0 +1,176 @@
+.cartWrapper {
+    width: 64px;
+    height: 64px;
+    background-image: url('../images/shopping-cart.png');
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.cartWrapper:active {
+    transform: scale(0.75);
+}
+
+.number {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    float: right;
+    color: #fff;
+}
+
+.kol {
+    text-align: center;
+    min-height: 16px;
+    min-width: 10px;
+    margin-top: -5px;
+}
+
+.cartBlock {
+    padding-top: 10px;
+    position: absolute;
+    width: 500px;
+    height: 1070px;
+    float: right;
+    right: -600px;
+    margin-top: 20px;
+    background-color: rgba(198, 195, 195, 0.9);
+    z-index: 10;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: right 2s;
+    transform: none;
+}
+
+.visible {
+    right: 45px;
+    transition: all 2s;
+}
+
+.decorImg {
+    max-width: 100px;
+    max-height: 100px;
+    opacity: 30%;
+}
+
+.decor {
+    display: flex;
+}
+
+.decor>img {
+    margin: 10px 30px;
+}
+
+.slantBlock {
+    transform: rotate(-35deg);
+    margin-right: 100px;
+    margin-left: -40px;
+    cursor: default;
+}
+
+.wrapperProductCardsCart {
+    width: 480px;
+    right: -193px;
+    top: 74px;
+    height: 400px;
+    position: absolute;
+    transform: rotate(35deg);
+    z-index: 100000;
+    padding-top: 20px;
+    overflow-y: scroll;
+}
+
+.cardCart {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    border: 1px solid #787878;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.imgCart {
+    width: 110px;
+    height: 110px;
+}
+
+.textCart p{
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.imageCart {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headerCardCart,
+.bodyCart,
+.buttonsCart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textCart {
+    height: 110px;
+    width: 200px;
+}
+
+.bodyCart {
+    padding-top: 15px;
+}
+
+.priceCart {
+    height: 60px;
+    width: 140px;
+    padding-top: 15px;
+    font-weight: bold   ;
+}
+
+.priceCart p{
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.buttonsCart {
+    height: 60px;
+    width: 200px;
+}
+
+.buttonsCart button {
+    border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.moreCartProduct {
+    background-color: orange;
+}
+
+.deletCartProduct {
+    background-color: red;
+}
+
+.visibBuy{
+    display: none;
+}
+
+.okOrder{
+    position: absolute;
+    transform: rotate(35deg);
+    top: 130px;
+    right: -220px;
+    z-index: 1000;
+}

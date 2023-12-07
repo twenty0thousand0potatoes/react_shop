@@ -1,0 +1,10 @@
+.wrapperSection{
+    margin-top: 30px;
+    padding: 60px;
+}
+
+.cardsSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

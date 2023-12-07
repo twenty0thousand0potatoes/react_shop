@@ -1,0 +1,15 @@
+.navList>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navList>ul li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+}

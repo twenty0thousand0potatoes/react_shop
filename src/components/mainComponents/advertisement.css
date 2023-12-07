@@ -1,0 +1,7 @@
+.wrapperAdvertisement{
+    display: flex;
+    max-width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
